@@ -9,6 +9,7 @@
             obj.FileExit();
             obj.ReadAllLines();
             obj.ReadAllText();
+            obj.CopyPath();
         }
     }
 }

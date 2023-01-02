@@ -37,5 +37,15 @@ namespace FileIO_Operation
             Console.WriteLine("\nFile Text :-");
             Console.WriteLine(text);
         }
+        public void CopyPath()
+        {
+            string Path = @"C:\BridgeLabz\FileIO_Operation\FileIO_Operation\TextFile.txt";
+            string CopyPath = @"C:\BridgeLabz\FileIO_Operation\FileIO_Operation\TextFile1.txt";
+            File.Copy(Path, CopyPath);
+            Console.WriteLine("\nCopied Successfully");
+            string CopiedText;
+            CopiedText = File.ReadAllText(CopyPath);
+            Console.WriteLine(CopiedText);
+        }
     }
 }
