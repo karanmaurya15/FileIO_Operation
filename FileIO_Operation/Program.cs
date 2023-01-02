@@ -9,8 +9,13 @@
             obj.FileExit();
             obj.ReadAllLines();
             obj.ReadAllText();
-           // obj.CopyPath();
+            obj.CopyPath();
             obj.DeletePath();
+
+            StreamClass streamClass = new StreamClass();
+            Console.WriteLine("\nStream Read and Write Operation");
+            streamClass.StreamWriter();
+            streamClass.StreamReader();
         }
     }
 }
