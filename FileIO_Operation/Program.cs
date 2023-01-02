@@ -8,6 +8,7 @@
             FileIO obj = new FileIO();
             obj.FileExit();
             obj.ReadAllLines();
+            obj.ReadAllText();
         }
     }
 }
