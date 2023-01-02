@@ -1,2 +1,0 @@
-﻿Hello world.
-Change world through coding.

@@ -9,7 +9,8 @@
             obj.FileExit();
             obj.ReadAllLines();
             obj.ReadAllText();
-            obj.CopyPath();
+           // obj.CopyPath();
+            obj.DeletePath();
         }
     }
 }
