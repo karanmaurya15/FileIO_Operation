@@ -6,7 +6,8 @@
         {
             Console.WriteLine("Wellcome to File I/O Operation\n");
             FileIO obj = new FileIO();
-            obj.FileExit(); 
+            obj.FileExit();
+            obj.ReadAllLines();
         }
     }
 }

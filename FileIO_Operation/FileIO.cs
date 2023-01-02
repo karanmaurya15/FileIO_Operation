@@ -20,5 +20,14 @@ namespace FileIO_Operation
                 Console.WriteLine("File Not Found");
             }
         }
+        public void ReadAllLines()
+        {
+            string Path = @"C:\BridgeLabz\FileIO_Operation\FileIO_Operation\TextFile.txt";
+            string[] lines;
+            lines = File.ReadAllLines(Path);
+            Console.WriteLine("\nFile Contain :->");
+            Console.WriteLine(lines[0]);
+            Console.WriteLine(lines[1]);
+        }
     }
 }
